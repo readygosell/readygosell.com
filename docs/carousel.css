@@ -120,6 +120,13 @@ body {
   background-size: cover;
 }
 
-/* .yellow {
-  color: #FBBB01;
-} */
+@media (max-width: 375px) {
+  .container.marketing {
+    margin-top: 20px;
+  }
+
+  .webforms {
+    width: 100%;
+  }
+
+}
