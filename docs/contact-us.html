@@ -46,6 +46,10 @@
 
   gtag('config', 'G-SQLKLJJEPP');
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
   </head>
   <body>
     
@@ -100,8 +104,9 @@
   setTimeout(
     function() {
       // document.getElementById('webform').style.width='100%';
-      document.getElementById('webform').className = "newClassName";
+      // document.getElementById('webform').className = "newClassName";
       console.log('after 5 seconds.');
+      $("<style>").text(".webforms { width:100%; }").appendTo("head");
     }, 5000);
 </script>
 
