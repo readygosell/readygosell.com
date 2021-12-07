@@ -125,4 +125,8 @@ body {
     margin-top: 20px;
   }
 
+  .webforms[style] {
+    width: 100% !important;
+ }
+
 }
